@@ -13,7 +13,28 @@
 		609A77DC261B151800DB6789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609A77DB261B151800DB6789 /* Assets.xcassets */; };
 		609A77DF261B151800DB6789 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609A77DE261B151800DB6789 /* Preview Assets.xcassets */; };
 		609A77E2261B151800DB6789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609A77E0261B151800DB6789 /* LaunchScreen.storyboard */; };
+		609A783E261B1E9A00DB6789 /* Launches.json in Resources */ = {isa = PBXBuildFile; fileRef = 609A783D261B1E9A00DB6789 /* Launches.json */; };
+		609A7841261B1EBB00DB6789 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A7840261B1EBB00DB6789 /* TestData.swift */; };
+		60A02609261B387F001E2374 /* Lunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A02608261B387F001E2374 /* Lunches.swift */; };
+		60A0260C261B3B05001E2374 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0260B261B3B05001E2374 /* Helper.swift */; };
+		60B0F97E261C3B08005FEA23 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0F97D261C3B08005FEA23 /* NetworkRequest.swift */; };
+		60B0F984261C41DD005FEA23 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0F983261C41DD005FEA23 /* NetworkController.swift */; };
+		60B0F98B261C5969005FEA23 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0F98A261C5969005FEA23 /* Row.swift */; };
+		60B0F98F261C5B52005FEA23 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0F98E261C5B52005FEA23 /* DetailView.swift */; };
+		60B0F992261C6A20005FEA23 /* LunchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0F991261C6A20005FEA23 /* LunchesView.swift */; };
+		60B0F9A1261C7E0A005FEA23 /* Launch.json in Resources */ = {isa = PBXBuildFile; fileRef = 60B0F9A0261C7E0A005FEA23 /* Launch.json */; };
+		60B0F9BC261C8365005FEA23 /* JsonDecodableDEmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0F9BB261C8365005FEA23 /* JsonDecodableDEmoTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B0F9BE261C8365005FEA23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 609A77CA261B151600DB6789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609A77D1261B151600DB6789;
+			remoteInfo = JsonDecodableDEmo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		609A77D2261B151600DB6789 /* JsonDecodableDEmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonDecodableDEmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +45,30 @@
 		609A77DE261B151800DB6789 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		609A77E1261B151800DB6789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		609A77E3261B151800DB6789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609A783D261B1E9A00DB6789 /* Launches.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Launches.json; sourceTree = "<group>"; };
+		609A7840261B1EBB00DB6789 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		60A02608261B387F001E2374 /* Lunches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunches.swift; sourceTree = "<group>"; };
+		60A0260B261B3B05001E2374 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		60B0F97D261C3B08005FEA23 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		60B0F983261C41DD005FEA23 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		60B0F98A261C5969005FEA23 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		60B0F98E261C5B52005FEA23 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		60B0F991261C6A20005FEA23 /* LunchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchesView.swift; sourceTree = "<group>"; };
+		60B0F9A0261C7E0A005FEA23 /* Launch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Launch.json; sourceTree = "<group>"; };
+		60B0F9B9261C8365005FEA23 /* JsonDecodableDEmoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonDecodableDEmoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B0F9BB261C8365005FEA23 /* JsonDecodableDEmoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecodableDEmoTests.swift; sourceTree = "<group>"; };
+		60B0F9BD261C8365005FEA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		609A77CF261B151600DB6789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B0F9B6261C8365005FEA23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +81,12 @@
 		609A77C9261B151600DB6789 = {
 			isa = PBXGroup;
 			children = (
+				60B0F987261C5912005FEA23 /* View */,
+				60B0F982261C3EE6005FEA23 /* Network */,
+				60B0F981261C3EC3005FEA23 /* Helper */,
+				60B0F980261C3EAC005FEA23 /* Model */,
 				609A77D4261B151600DB6789 /* JsonDecodableDEmo */,
+				60B0F9BA261C8365005FEA23 /* JsonDecodableDEmoTests */,
 				609A77D3261B151600DB6789 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				609A77D2261B151600DB6789 /* JsonDecodableDEmo.app */,
+				60B0F9B9261C8365005FEA23 /* JsonDecodableDEmoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,11 +105,12 @@
 			children = (
 				609A77D5261B151600DB6789 /* AppDelegate.swift */,
 				609A77D7261B151600DB6789 /* SceneDelegate.swift */,
-				609A77D9261B151600DB6789 /* ContentView.swift */,
+				609A783D261B1E9A00DB6789 /* Launches.json */,
 				609A77DB261B151800DB6789 /* Assets.xcassets */,
 				609A77E0261B151800DB6789 /* LaunchScreen.storyboard */,
 				609A77E3261B151800DB6789 /* Info.plist */,
 				609A77DD261B151800DB6789 /* Preview Content */,
+				609A7840261B1EBB00DB6789 /* TestData.swift */,
 			);
 			path = JsonDecodableDEmo;
 			sourceTree = "<group>";
@@ -70,9 +118,55 @@
 		609A77DD261B151800DB6789 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				60B0F9A0261C7E0A005FEA23 /* Launch.json */,
 				609A77DE261B151800DB6789 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60B0F980261C3EAC005FEA23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60A02608261B387F001E2374 /* Lunches.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60B0F981261C3EC3005FEA23 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				60A0260B261B3B05001E2374 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		60B0F982261C3EE6005FEA23 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				60B0F97D261C3B08005FEA23 /* NetworkRequest.swift */,
+				60B0F983261C41DD005FEA23 /* NetworkController.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		60B0F987261C5912005FEA23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60B0F98A261C5969005FEA23 /* Row.swift */,
+				60B0F98E261C5B52005FEA23 /* DetailView.swift */,
+				60B0F991261C6A20005FEA23 /* LunchesView.swift */,
+				609A77D9261B151600DB6789 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60B0F9BA261C8365005FEA23 /* JsonDecodableDEmoTests */ = {
+			isa = PBXGroup;
+			children = (
+				60B0F9BB261C8365005FEA23 /* JsonDecodableDEmoTests.swift */,
+				60B0F9BD261C8365005FEA23 /* Info.plist */,
+			);
+			path = JsonDecodableDEmoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +189,24 @@
 			productReference = 609A77D2261B151600DB6789 /* JsonDecodableDEmo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		60B0F9B8261C8365005FEA23 /* JsonDecodableDEmoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B0F9C0261C8365005FEA23 /* Build configuration list for PBXNativeTarget "JsonDecodableDEmoTests" */;
+			buildPhases = (
+				60B0F9B5261C8365005FEA23 /* Sources */,
+				60B0F9B6261C8365005FEA23 /* Frameworks */,
+				60B0F9B7261C8365005FEA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B0F9BF261C8365005FEA23 /* PBXTargetDependency */,
+			);
+			name = JsonDecodableDEmoTests;
+			productName = JsonDecodableDEmoTests;
+			productReference = 60B0F9B9261C8365005FEA23 /* JsonDecodableDEmoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -106,6 +218,10 @@
 				TargetAttributes = {
 					609A77D1261B151600DB6789 = {
 						CreatedOnToolsVersion = 12.1;
+					};
+					60B0F9B8261C8365005FEA23 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 609A77D1261B151600DB6789;
 					};
 				};
 			};
@@ -123,6 +239,7 @@
 			projectRoot = "";
 			targets = (
 				609A77D1261B151600DB6789 /* JsonDecodableDEmo */,
+				60B0F9B8261C8365005FEA23 /* JsonDecodableDEmoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -132,9 +249,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609A783E261B1E9A00DB6789 /* Launches.json in Resources */,
 				609A77E2261B151800DB6789 /* LaunchScreen.storyboard in Resources */,
+				60B0F9A1261C7E0A005FEA23 /* Launch.json in Resources */,
 				609A77DF261B151800DB6789 /* Preview Assets.xcassets in Resources */,
 				609A77DC261B151800DB6789 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B0F9B7261C8365005FEA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,13 +271,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B0F984261C41DD005FEA23 /* NetworkController.swift in Sources */,
+				60B0F98B261C5969005FEA23 /* Row.swift in Sources */,
+				60B0F97E261C3B08005FEA23 /* NetworkRequest.swift in Sources */,
+				60B0F98F261C5B52005FEA23 /* DetailView.swift in Sources */,
 				609A77D6261B151600DB6789 /* AppDelegate.swift in Sources */,
 				609A77D8261B151600DB6789 /* SceneDelegate.swift in Sources */,
+				60A02609261B387F001E2374 /* Lunches.swift in Sources */,
 				609A77DA261B151600DB6789 /* ContentView.swift in Sources */,
+				609A7841261B1EBB00DB6789 /* TestData.swift in Sources */,
+				60A0260C261B3B05001E2374 /* Helper.swift in Sources */,
+				60B0F992261C6A20005FEA23 /* LunchesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B0F9B5261C8365005FEA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B0F9BC261C8365005FEA23 /* JsonDecodableDEmoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60B0F9BF261C8365005FEA23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609A77D1261B151600DB6789 /* JsonDecodableDEmo */;
+			targetProxy = 60B0F9BE261C8365005FEA23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		609A77E0261B151800DB6789 /* LaunchScreen.storyboard */ = {
@@ -323,6 +473,46 @@
 			};
 			name = Release;
 		};
+		60B0F9C1261C8365005FEA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				INFOPLIST_FILE = JsonDecodableDEmoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.JsonDecodableDEmoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonDecodableDEmo.app/JsonDecodableDEmo";
+			};
+			name = Debug;
+		};
+		60B0F9C2261C8365005FEA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD73F8592Z;
+				INFOPLIST_FILE = JsonDecodableDEmoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.JsonDecodableDEmoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonDecodableDEmo.app/JsonDecodableDEmo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +530,15 @@
 			buildConfigurations = (
 				609A77E7261B151800DB6789 /* Debug */,
 				609A77E8261B151800DB6789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B0F9C0261C8365005FEA23 /* Build configuration list for PBXNativeTarget "JsonDecodableDEmoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B0F9C1261C8365005FEA23 /* Debug */,
+				60B0F9C2261C8365005FEA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
